@@ -1,0 +1,30 @@
+body{
+    margin: 50px;
+}
+table{
+    border: solid black 3px;
+}
+th{
+    padding: 15px;
+}
+.tamañoImagenes{
+    width: 500px;
+    padding: 5px;
+}
+#header{
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+#tamañoLogo{
+    width: 250px;
+}
+#bold{
+    font-weight: bold;
+}
+@media only screen and (max-width: 769px){
+    .tamañoImagenes{
+        width: 100%;
+    }
+}
